@@ -9,20 +9,28 @@ module.exports = {
     extend: {
       fontFamily: {
         ooohbaby: ['"Oooh Baby"', 'cursive'],
-        roboto: ['Roboto', 'sans-serif'],  // Ajout de la police Roboto
+        roboto: ['Roboto', 'sans-serif'],
       },
       colors: {
-        'dark-bg': '#1a1a1a',   // Noir du fond sombre
-        'dark-text': '#ffffff',  // Texte blanc pour le mode sombre
-        'light-bg': '#f7f7f7',   // Fond clair pour le mode clair
-        'light-text': '#000000', // Texte noir pour le mode clair
+        'dark-bg': '#1a1a1a',
+        'dark-text': '#ffffff',
+        'light-bg': '#f7f7f7',
+        'light-text': '#000000',
       },
       backgroundImage: {
-        'gradient-dark': 'linear-gradient(to bottom, #1a1a1a, #292929)', // Dégradé du noir vers un gris foncé
+        'gradient-dark': 'linear-gradient(to bottom, #1a1a1a, #292929)',
         'gradient-light': 'linear-gradient(to bottom, #f7f7f7, #ffffff)',
+      },
+      animation: {
+        'fade-in-up': 'fadeInUp 0.5s ease-out',
+      },
+      keyframes: {
+        fadeInUp: {
+          '0%': { opacity: 0, transform: 'translateY(10px)' },
+          '100%': { opacity: 1, transform: 'translateY(0)' },
+        },
       },
     },
   },
-  darkMode: 'class',
   plugins: [],
 }

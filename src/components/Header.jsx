@@ -15,7 +15,7 @@ function Header() {
     <header className="h-[80px] md:h-[100px] lg:h-[125px] bg-black text-white flex items-center justify-between px-12">
       {/* Logo */}
       <div className="flex items-center">
-        <img src={logo} alt="Logo" className="h-[20vh] sm:h-[21vh] md:h-[22vh] lg:h-[30vh] w-auto" />
+        <img src={logo} alt="Logo" width="400" height="auto" className="h-[20vh] sm:h-[21vh] md:h-[22vh] lg:h-[30vh] w-auto" />
       </div>
 
       {/* Menu de navigation */}
@@ -32,9 +32,15 @@ function Header() {
       </div>
 
       {/* Bouton bleu sur grand écran */}
-      <button className="bg-[#4FB3F4] text-white font-bold text-sm py-2 px-6 rounded-full hover:bg-[#3b97c6] hover:scale-105 transition-transform duration-300 sm:text-sm md:text-[16px] md:py-2 md:px-6 md:py-2 hidden md:block">
+      <Link
+        to="Contact"
+        smooth={true}
+        duration={500}
+        className="bg-[#4FB3F4] text-white font-bold text-sm py-2 px-6 rounded-full hover:bg-[#3b97c6] hover:scale-105 transition-transform duration-300 sm:text-sm md:text-[16px] md:py-2 md:px-6 md:py-2 hidden md:block cursor-pointer"
+        aria-label="Contactez-moi"
+      >
         Contactez-moi
-      </button>
+      </Link>
     </header>
   );
 }
