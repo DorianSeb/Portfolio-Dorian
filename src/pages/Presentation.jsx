@@ -51,12 +51,12 @@ function Presentation() {
         {/* Aperçu du CV */}
         <div className="bg-gray-800 p-4 rounded-lg shadow-lg mb-4 hidden md:block w-full max-w-[250px] lg:max-w-[300px] mt-6">
           <img
-            src="/cv-dorian.png" // Remplace par l'image de l'aperçu de ton CV
+            src="/Portfolio-Dorian/cv-dorian.png" // Remplace par l'image de l'aperçu de ton CV
             alt="Aperçu du CV de Dorian Sebille"
             width="1190"
             height="1684"
             className="w-full max-w-[300px] h-auto rounded-lg cursor-pointer"
-            onClick={() => window.open('/cv-dorian.png', '_blank')} // Ouvre le PDF en cliquant sur l'image
+            onClick={() => window.open('/Portfolio-Dorian/cv-dorian.png', '_blank')}
             loading="lazy"
           />
         </div>

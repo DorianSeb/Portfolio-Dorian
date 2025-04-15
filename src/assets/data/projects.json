@@ -3,9 +3,8 @@
     "title": "Kasa",
     "subtitle": "Location d'appartements entre particuliers",
     "description": "Site de location d'appartements entre particuliers. Développement du frontend avec React et backend avec Node.js. Utilisation de React Router pour gérer la navigation dynamique entre les pages et créer des composants réutilisables. J'ai surmonté cela en structurant proprement mes routes et composants.",
-    "image": "/images/Kasa.webp",
+    "image": "/Portfolio-Dorian/images/Kasa.webp",
     "tools": ["HTML", "React"],
-
     "skillsLearned": ["React", "React Router", "Création de composants réutilisables", "Props", "Responsive design", "Structuration des routes"],
     "github": "https://github.com/DorianSeb/P-5-Kasa.git"
   },
@@ -13,7 +12,7 @@
     "title": "Portfolio Nina",
     "subtitle": "Photographe professionnelle",
     "description": "Site vitrine d’une photographe professionnelle. Corrections de bugs, optimisation des performances, de l’accessibilité et du référencement à l’aide de Lighthouse et Wave.",
-    "image": "/images/Nina.webp",
+    "image": "/Portfolio-Dorian/images/Nina.webp",
     "tools": ["HTML", "CSS", "JavaScript"],
     "skillsLearned": ["Optimisation des performances", "Accessibilité", "SEO", "Utilisation de Lighthouse et Wave", "Correction de bugs", "Responsive design"],
     "github": "https://github.com/DorianSeb/P4---Nina-Carducci.git"

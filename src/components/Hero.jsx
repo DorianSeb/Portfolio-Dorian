@@ -8,7 +8,7 @@ function Hero() {
     <div className="h-screen bg-gradient-to-b from-black to-[#1a1a1a] text-white flex flex-col lg:flex-row justify-center items-center px-10">
       <div className="flex flex-col w-1/2 ml-[35px]">   
         <img
-          src="/images/profil.webp"
+          src="/Portfolio-Dorian/images/profil.webp"
           alt="Photo de Dorian"
           width="462"
           height="570"
